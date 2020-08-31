@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/favorites_border"
+        android:orderInCategory="100"
+        android:title="@string/favorits"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_all"
+        android:icon="@drawable/all"
+        android:orderInCategory="200"
+        android:title="@string/favorits"
+        app:showAsAction="always" />
+</menu>

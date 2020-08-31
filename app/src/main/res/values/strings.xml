@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Zpěvník pro scholy</string>
+    <string name="app_name_splash1">Zpěvník</string>
+    <integer name="version">10</integer>
+    <string name="news">Novinky</string>
+    <string name="numberPicker">Zadat číslo</string>
+    <string name="content">Rejstříky</string>
+    <string name="chooseNumber">Číselný seznam</string>
+    <string name="alphabet">Abecední seznam</string>
+    <string name="chooseGroup">Seznam skupin</string>
+    <string name="search">Vyhledávání</string>
+    <string name="searchHint">Zadejte slovo nebo číslo ....</string>
+    <string name="searchResult">Nalezených výsledků: %1$d</string>
+    <string name="knowNumber">Zadat číslo</string>
+    <string name="info_app">O aplikaci</string>
+    <string name="info_project">O projektu</string>
+    <string name="ok">OK</string>
+    <string name="close_button">Zavřít</string>
+    <string name="loading">Načítání aplikace ...</string>
+    <string name="action_favorite">Oblíbené</string>
+    <string name="action_lock">Zamknout noty</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="action_translation">Překlady</string>
+
+    <string name="translation_original">Originální překlad</string>
+    <string name="translation_authorized">Autorizovaný překlad</string>
+    <string name="translation_others">Ostatní překlady</string>
+
+    <string name="home">Domů</string>
+    <string name="hymnals">Zpěvníky</string>
+    <string name="hymnals_additional">Vybírejte skladby ze zpěvníků, které znáte.</string>
+    <string name="favorits">Oblíbené</string>
+    <string name="favorits_additional">Vraťe se ke svým oblíbeným písním či jejich seznamům.</string>
+    <string name="settings">Nastavení</string>
+    <string name="settings_additional">Přizpůsobte si aplikaci podle sebe.</string>
+    <string name="others">Ostatní</string>
+
+    <string name="numberButton">Vyhledat</string>
+    <string name="selectNumber">Zadejte požadované číslo</string>
+    <string name="reload">Je zapotřebí znovu načíst skladby.</string>
+
+    <string name="problems">Problém s komunikací</string>
+
+    <string name="mute">Vypnout vyzvánění</string>
+    <string name="muteSummary">Vypne vyzvánění telefonu.</string>
+    <string name="volume_changed">Bylo Vám ztišeno vyzvánění.\nAutomatické vypínání lze změnit v nastavení.</string>
+    <string name="volume_unchanged">Ztišení vyzvánění není dostupné.\nAplikaci nebylo uděleno potřebné povolení.</string>
+    <string name="night">Noční režim</string>
+    <string name="nightSummary">Zobrazovaný text bude bílý na černém pozadí.</string>
+    <string name="sleep">Zabránit vypínání obrazovky</string>
+    <string name="sleepSummary">Obrazovka se při používání aplikace nebude vypínat.</string>
+    <string name="lock">Obejít uzamknutou obrazovku</string>
+    <string name="lockSummary">Zobrazená skladba bude dostupná bez nutnosti odemknout zařízení v případě, že bylo uzamčeno automaticky či uživatelem.</string>
+    <string name="serif">Patkové písmo</string>
+    <string name="serifSummary">Písně a jejich seznamy budou zobrazeny patkovým písmem.</string>
+    <string name="acords">Zobrazit akordy</string>
+    <string name="acordsSummary">U písní budou v textu zobrazovány kytarové akordy, jsou-li k dispozici.</string>
+    <string name="note">Zobrazit k textu i noty</string>
+    <string name="noteSummary">U písní budou zobrazovány i noty, jsou-li k dispozici.</string>
+    <string name="view_setting">Nastavení prostředí</string>
+    <string name="wrongNumber">Zadané číslo neexistuje!</string>
+    <string name="wrongSearch">Nebyly nalezeny žádné výsledky pro Váš dotaz.</string>
+    <string name="emptyList">Doposud nebyly označeny žádné skladby jako oblíbené.</string>
+    <string name="emptyBookmarksList">Doposud nebyly žádné skladby uloženy do záložek.</string>
+    <string name="findCislo">Zadejte číslo skladby.</string>
+    <string name="textSize">Nastavení velikosti textu</string>
+    <string name="textSizeSummary">Zvolte velikost textu zobrazovaných písní. Velikost textu můžete změnit také přímo u zobrazené písně a to pomocí zoomovacího gesta.</string>
+    <string name="fullscreen">Aplikace v režimu celé obrazovky</string>
+    <string name="fullscreenSummary">Celá aplikace bude spuštěna v režimu celé obrazovky.</string>
+    <string name="fullscreenSong">Skladby/modlitby v režimu celé obrazovky</string>
+    <string name="fullscreenSongSummary">Jednotlivé skladby/bodlitby budou zobrazovány v režimu celé obrazovky.</string>
+    <string name="empty"></string>
+
+
+    <string name="nofilter">Filtrování v této chvíli ještě není dostupné.</string>
+    <string name="searchresults">Pohybujete se mezi výsledky vyhledávání.</string>
+
+    <string name="bookmarks">Záložky</string>
+    <string name="storeToBookmark">Uložit skladbu do záložek</string>
+    <string name="delete">Odstranit všechny záložky</string>
+
+    <string name="close_app">Chcete ukončit aplikaci?</string>
+    <string name="close_title">Ukončení</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+
+    <string name="update_app">Aktualizace</string>
+    <string name="update">V obchodu Google Play je pro vás připravena aktualizace Zpěvníku pro scholy. Chcete ji teď nainstalovat?</string>
+
+    <string name="server_issue">Při komunikaci se místním serverem došlo k neočekávané chybě: %1$s</string>
+    <string name="server_down">Nepodařilo se navázat spojení s místním síťovým číselníkem. S největší pravděpodobností je vypnutý nebo v tomto místě není pro účastníky bohoslužeb centrální nastavování skladeb k dispozici.</string>
+    <string name="network_error">Vyskytl se problém s připojením k síti. Zkontrolujte, zda jste připojeni k místní síti, která poskytuje centrální nastavování skladeb kancionálu.</string>
+    <string name="dhcp_error">Vyskytl se problém s Wi-Fi sítí. Zdá se, že nejste připojeni k žádné Wi-Fi síti.</string>
+    <string name="wifi">Problém s Wi-Fi</string>
+    <string name="wifi_issue">Aplikace zjistila, že na svém zařízení nemáte zapnutou Wi-Fi. Dokud ji nezapnete, nebude Vám centrální nastavování skladeb fungovat.</string>
+
+
+    <string name="about_project"><![CDATA[<p>Zpěvník ProScholy.cz, který přichází na pomoc všem scholám, křesťanským kapelám, společenstvím a všem, kdo se chtějí modlit hudbou!</p><p>Projekt vzniká se svolením <a href="http://tisk.cirkev.cz">České biskupské konference</a>.</p><p>Další informace o&nbsp;stavu a&nbsp;rozvoji projektu naleznete na <a href="http://zpevnik.proscholy.cz">https://zpevnik.proscholy.cz</a>.</p>]]></string>
+
+
+    <string name="about_app"><![CDATA[
+            <p>
+                Zpěvník pro scholy verze 1.8<br>
+                Offline mobilní verze pro Android.
+			</p>
+
+            <p>Autor mobilní aplikace: Josef Řídký</p>
+
+
+            <p><strong>Verze 1.8:</strong><br>Úprava hlavní stránky a detailu písně. Přidání možnosti filtrace skladeb, zobrazování jejich jazykových mutací a hromadné přidávání mezi Oblíbené. Aktualizace písní.<br><br>
+            <strong>Verze 1.7:</strong><br>Aktualizace databáze skladeb.<br><br>
+            <strong>Verze 1.6:</strong><br>Aktualizace databáze skladeb.<br><br>
+            <strong>Verze 1.5:</strong><br>Přidána možnost rychlého posouvání v abecedním seznamu. Doplnění akordů a naznačených slok.<br><br>
+            <strong>Verze 1.4:</strong><br>Aktualizace písní.<br><br>
+            <strong>Verze 1.3:</strong><br>Oprava nočního režimu.<br><br>
+            <strong>Verze 1.2:</strong><br>Oprava barev a textů.<br><br>
+            <strong>Verze 1.1:</strong><br>Úprava rozložení obrazovek.<br><br>
+            <strong>Verze 1.0:</strong><br>aplikace je spustitelná na mobilních zařízeních a tabletech s operačním systémem Android v minimální verzi Ice Cream Sandwich (4.0.3).<br><br>
+            Na vývoji se stále pracuje.</p>
+
+            <p>Případné chyby, připomínky, nápady či postřehy k této aplikaci, prosím, uveďte na adresu <a href="mailto:j.ridky@gmail.com">J.Ridky@gmail.com</a>.</p>]]></string>
+
+</resources>

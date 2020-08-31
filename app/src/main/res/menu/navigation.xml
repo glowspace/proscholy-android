@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:itemTextColor="@drawable/menu_color_home"
+        app:itemIconTint="@drawable/menu_color_home"/>
+
+    <item
+        android:id="@+id/hymnals"
+        android:icon="@drawable/hymnals"
+        android:title="@string/hymnals"
+        app:itemTextColor="@drawable/menu_color_hymnals"
+        app:itemIconTint="@drawable/menu_color_hymnals"/>
+
+    <item
+        android:id="@+id/favorits"
+        android:icon="@drawable/favorits"
+        android:title="@string/favorits"
+        app:itemTextColor="@drawable/menu_color_favorits"
+        app:itemIconTint="@drawable/menu_color_favorits"/>
+
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/others"
+        android:title="@string/others"
+        app:itemTextColor="@drawable/menu_color_other"
+        app:itemIconTint="@drawable/menu_color_other"/>
+
+</menu>

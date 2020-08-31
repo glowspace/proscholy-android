@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mladez="http://mladez.jozkar">
+
+    <jozkar.mladez.SeekBarPreference
+        android:key="textSizePercent"
+        android:title="@string/textSize"
+        android:summary="@string/textSizeSummary"
+        android:defaultValue="100"
+        android:max="300"
+        android:min="50"
+        app:iconSpaceReserved="false"/>
+
+
+    <CheckBoxPreference
+            android:title="@string/mute"
+            android:key="mute"
+            android:defaultValue="false"
+            android:summary="@string/muteSummary"
+            app:iconSpaceReserved="false"
+            />
+
+
+        <CheckBoxPreference
+            android:title="@string/night"
+            android:key="night"
+            android:defaultValue="false"
+            android:summary="@string/nightSummary"
+            app:iconSpaceReserved="false"
+                />
+
+        <CheckBoxPreference
+            android:title="@string/fullscreen"
+            android:key="fullscreen"
+            android:defaultValue="false"
+            android:summary="@string/fullscreenSummary"
+            app:iconSpaceReserved="false"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/fullscreenSong"
+            android:key="fullscreenSong"
+            android:defaultValue="true"
+            android:summary="@string/fullscreenSongSummary"
+            app:iconSpaceReserved="false"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/sleep"
+            android:key="sleep"
+            android:defaultValue="false"
+            android:summary="@string/sleepSummary"
+            app:iconSpaceReserved="false"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/lock"
+            android:key="lock"
+            android:defaultValue="false"
+            android:summary="@string/lockSummary"
+            app:iconSpaceReserved="false"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/serif"
+            android:key="serif"
+            android:defaultValue="false"
+            android:summary="@string/serifSummary"
+            app:iconSpaceReserved="false"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/acords"
+            android:key="acord"
+            android:defaultValue="false"
+            android:summary="@string/acordsSummary"
+            app:iconSpaceReserved="false"
+            />
+
+        <CheckBoxPreference
+            android:title="@string/note"
+            android:key="note"
+            android:defaultValue="true"
+            android:summary="@string/noteSummary"
+            app:iconSpaceReserved="false"
+            />
+
+<!--        <CheckBoxPreference
+            android:title="@string/remote"
+            android:key="remote"
+            android:defaultValue="false"
+            android:summary="@string/remoteSummary"
+            /> -->
+</PreferenceScreen>

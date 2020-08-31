@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/thumbnail_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="10dp">
+
+        <!--profile image -->
+        <TextView
+            android:id="@+id/shortcut"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="4dp"
+            android:paddingRight="3dp"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            app:autoSizeMaxTextSize="30sp"
+            app:autoSizeMinTextSize="6sp"
+            app:autoSizeTextType="uniform" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:maxWidth="60dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="15dp"
+            android:text="Angelus Domini"
+            android:textColor="?attr/color"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <!--username-->
+
+</RelativeLayout>
